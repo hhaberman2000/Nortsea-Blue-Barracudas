@@ -1,0 +1,17 @@
+#easy-border {
+  border: 2px solid black;
+}
+
+#contentContainer {
+  margin:0% 19.5% 0% 19.5%;
+  border: 2px solid red;
+}
+
+ /*REMOVE THIS COMMENT IF YOU WANT TO SEE THE PAGE IMAGE AS A BACKGROUND*/
+#bg {
+    background-image: url("03_contact.jpg");
+    position: absolute;
+     width: 100%;
+     height: 100%;
+     background-size: cover;
+}
