@@ -1,0 +1,15 @@
+.gold-header {
+  color: #c0a878;
+  text-align: center;
+}
+
+p.facility-desc > i {
+  background-color: #8d5ba1;
+  color: #ffffff;
+  margin-right: 5%;
+  font-size: 140%;
+}
+.facility-desc {
+  color: #959595;
+  font-size: 110%;
+}
