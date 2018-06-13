@@ -1,0 +1,76 @@
+.tc {
+  color: #acacac;
+}
+
+.br {
+  height: 60px;
+  background-color: #3f3f3f;
+  padding-top: 1.5rem;
+  color: #acacac;
+}
+
+.tr {
+  height: 250px;
+  background-color: #383838;
+}
+
+.read-more {
+  color: #636363;
+}
+
+.read-more i {
+  position: relative;
+  top: 1.4px;
+  left: 10px;
+}
+
+.column-2-list li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+.fa-map-marker-alt,
+.glyphicon-earphone,
+.fa-telegram-plane,
+.fa-compass {
+  margin-right: 5px;
+}
+
+.footer-icons {
+  color: #c0a878;
+}
+
+.logo-footer {
+  margin-top: 65px;
+  margin-left: 30px;
+}
+
+.glyphicon-earphone {
+  margin-right: 13px;
+}
+
+.fa-telegram-plane {
+  padding-right: 17px;
+}
+
+.fa-compass {
+  padding-right: 19px;
+}
+
+.con-row {
+  margin-bottom: 2px;
+}
+
+.bord-bottom {
+  border-bottom: 1px solid #464646;
+  margin-bottom: 5px;
+}
+
+#bottom-row-1 span {
+  padding-left: 10px;
+  font-weight: 100
+}
+
+#bottom-row-1 {
+    font-weight: 100;
+}
