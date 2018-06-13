@@ -1,0 +1,22 @@
+/* #easy-border { */
+  /* border: 2px solid green; */
+  /* margin: 10px; */
+
+
+.announcements {
+  padding: 10px;
+}
+
+.media-body {
+  width: 20%;
+}
+
+.news-block {
+  border: 2px solid lightgray;
+  padding: 20px;
+}
+
+.btn-view-all {
+  border-radius: 0px;
+  width: 100%;
+}
