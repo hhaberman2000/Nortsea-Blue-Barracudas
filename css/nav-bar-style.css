@@ -1,8 +1,28 @@
 .nav-right {
   background-color: #363636;
   padding: 0.5rem;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 170px;
+  padding-left: 54px;
+}
+
+.topnav {
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid white;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid white;
+ 
 }
 
 .nav-img {
