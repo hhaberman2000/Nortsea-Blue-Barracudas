@@ -1,0 +1,41 @@
+.profile-h3 {
+  margin: auto;
+  display: block;
+  text-align: center;
+  margin-top: 8px;
+}
+.profile-status {
+  margin: auto;
+  display: block;
+  text-align: center;
+  margin-top: 8px;
+  color: #d0d2d9;
+}
+
+.team-profile-row {
+  padding: 5rem;
+}
+
+.profile-img {
+  margin: auto;
+  display: block;
+}
+
+.team-h1 {
+  color: #c0a878;
+  font-weight: 300;
+}
+
+.team-p {
+  color: #969eb2;
+}
+
+.team-icons {
+  color: #969eb2;
+}
+
+.team-icons-position {
+  margin: auto;
+  display: block;
+  margin-left: 80px;
+}
