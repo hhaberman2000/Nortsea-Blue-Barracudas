@@ -1,4 +1,3 @@
-
 #square-button {
   border-radius: 0px;
   border: 1px solid lightgray;
@@ -7,6 +6,13 @@
 }
 
 #square-button:hover {
+  border: 1px solid #c0a878;
+  border-bottom: 3px solid #c0a878;
+  background-color: white;
+  color: #c0a878;
+}
+
+#square-button:focus {
   border: 1px solid #c0a878;
   border-bottom: 3px solid #c0a878;
   background-color: white;
@@ -29,4 +35,9 @@
 
 img {
   margin-left: 30%;
+}
+
+body {
+  background-image: url(./img/background-texture.png)
+
 }
