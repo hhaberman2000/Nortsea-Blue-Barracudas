@@ -23,17 +23,19 @@
   text-decoration: none;
   margin-top: 10px
 }
-/*-- not sure will use hover
-.btn-mod1:hover {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-  text-decoration: none;
+
+.btn-search-book {
+  background: #969696;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 10px;
+  margin-top: 30px;
+  margin-left: -15px;
+  /*padding: 10px 20px 10px 20px;*/
+  height: 35px;
+  width: 125px;
 }
-*/
 
 p.phrase1-mod1 {
   color: white;
@@ -58,6 +60,95 @@ p.phrase2-mod1 {
   font-weight:600;
   padding: 10px 25px 5px 25px;
 }
+
+.b-row {
+  border: 2px solid brown;
+  height: 93px;
+}
+
+/*.b-col {
+  border: 2px solid purple;
+}
+*/
+
+
+.arrival {
+  padding-top: 9px;
+  margin-bottom: 0px;
+}
+.going {
+  padding-top: 9px;
+  margin-bottom: 0px;
+}
+
+.arrival-input {
+  height: 30px;
+  width: 105px;
+  padding-left: 10px;
+  margin-top: 5px;
+  margin-left:10px;
+  margin-bottom:21px;
+  font-size: 10px;
+}
+
+.going-input {
+  height: 30px;
+  width: 105px;
+  padding-left: 10px;
+  margin-top: 5px;
+  margin-left:10px;
+  margin-bottom:21px;
+  font-size: 10px;
+}
+
+.btn-border {
+  /*border: 2px solid black;*/
+  height: 60px;
+  width: 90px;
+}
+
+.btn-box-size {
+  height: 25px
+  width: 40px;
+}
+
+.room {
+margin-top: 1px;
+padding-top: 6px;
+margin-bottom: 3px;
+}
+
+.btn-position1 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.person {
+  margin-top: 2px;
+margin-bottom: 3px;
+}
+
+.btn-position2 {
+
+}
+
+.child {
+  margin-top: 2px;
+  margin-bottom: 3px;
+}
+
+.btn-position3 {
+
+}
+
+.day {
+  margin-top: 2px;
+  margin-bottom: 3px;
+}
+
+.btn-position4 {
+
+}
+
 img.indicator {
   margin-top: 93px;
   margin-bottom: 22px;
@@ -99,9 +190,13 @@ img.hotel-icon {
   border: 2px solid black;
 }
 
+.top-row {
+    border: 2px solid red;
+}
+
 #contentContainer {
   margin:7.25% 19.5% -5% 19.5%;
-  border: 2px solid red;
+
 }
 
  /*REMOVE THIS COMMENT IF YOU WANT TO SEE THE PAGE IMAGE AS A BACKGROUND*/
