@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Index Module One</title>
-    <link rel="stylesheet" href="css/index-styles.css">
+    <link rel="stylesheet" href="css/index-styles-mod1.css">
     <link rel="stylesheet" href="css/bootstrap.css">
   </head>
-  <body id="bg"> <!--TO REMOVE BACKGROUND PICTURE GET RID OF THIS BODY ID OR COMMENT OUT bg IN css/services.css-->>
+  <body id=bg> <!--id="bg"TO REMOVE BACKGROUND PICTURE GET RID OF THIS BODY ID OR COMMENT OUT bg IN css/services.css-->>
     <!-- Jumbotron Summer Rates-->
     <section class="container-fluid" id="contentContainer">
 
-      <div class="row" style="background-color:#313131">
+      <div class="row top-row" style="background-color:#313131">
         <div class="col-md-9" style="padding-left: 0px">
 
           <p class="phrase1-mod1">35% Sale </p>
@@ -20,7 +20,9 @@
           <div>
             <img class="indicator" src="assets/horizontal-indicators.png">
           </div>
-
+          <div style="background-color:#313131;">
+            <button type="button" class="btn-hotel"><img class="hotel-icon" src="assets/hotel-icon.png"> Hotel</button>
+          </div>
         </div>
 
         <div class="col-md-3">
@@ -28,87 +30,72 @@
           <img class="mod1-image2" src="assets/gallery.png">
           <img class="mod1-image3" src="assets/360-virtual-tour.png">
         </div>
+
+
       </div>
 
-      <div class="row" style="background-color:#313131;">
-        <button type="button" class="btn-hotel"><img class="hotel-icon" src="assets/hotel-icon.png">  Hotel</button>
-      </div>
+      <div class="row b-row">
+        <!-- Arrival Input-->
+        <div class="col-md-2 b-col"> <p class="arrival"> Arrival </p>
+          <input class="arrival-input" placeholder="16.07.2015">
+        </div>
+        <!-- Going Input-->
+        <div class="col-md-2 b-col"> <p class="going"> Going </p>
+          <input class="going-input" placeholder="16.07.2015">
+        </div>
+        <!-- Room Dropdown -->
+        <div class="col-md-6 b-col">
 
-      <div class="row" style="background-color:#fafafa">
-        <div class="col-md-2">
-        <!-- Split button -->
-            <div class="btn-group">
-              <button type="button" class="btn btn-default"> 1 </button>
-              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="caret"></span>
-                <span class="sr-only">Toggle Dropdown</span>
-              </button>
-            </div>
+          <div class="btn-group btn-position1 btn-border" >
+              <p class="room"> Room </p>
+               <button type="button" class="btn btn-default btn-box-size"> 2 </button>
+               <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               <span class="caret"></span>
+               <span class="sr-only">Toggle Dropdown</span>
+               </button>
           </div>
-          <div class="col-md-2">
-          <!-- Split button -->
-            <div class="btn-group">
+          <!-- Person Dropdown -->
+          <div class="btn-group btn-position2 btn-border">
+                <p class="person"> Person </p>
+                <button type="button" class="btn btn-default"> 2 </button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="caret"></span>
+                  <span class="sr-only">Toggle Dropdown</span>
+                </button>
+          </div>
+          <!-- Child Dropdown -->
+          <div class="btn-group btn-position3 btn-border">
+              <p class="child"> Child </p>
                 <button type="button" class="btn btn-default"> 1 </button>
                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <span class="caret"></span>
                   <span class="sr-only">Toggle Dropdown</span>
                 </button>
-              </div>
+                </div>
+          <!-- Day Dropdown -->
+          <div class="btn-group btn-position4 btn-border">
+              <p class="day"> Day </p>
+                <button type="button" class="btn btn-default"> 1 </button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="caret"></span>
+                  <span class="sr-only">Toggle Dropdown</span>
+                </button>
             </div>
-            <div class="col-md-1">
-            <!-- Split button -->
-                <div class="btn-group">
-                  <button type="button" class="btn btn-default"> 1 </button>
-                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <span class="caret"></span>
-                    <span class="sr-only">Toggle Dropdown</span>
-                  </button>
-                </div>
-              </div>
-            <div class="col-md-1">
-              <!-- Split button -->
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-default"> 1 </button>
-                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <span class="caret"></span>
-                      <span class="sr-only">Toggle Dropdown</span>
-                    </button>
-                  </div>
             </div>
-            <div class="col-md-1">
-            <!-- Split button -->
-                <div class="btn-group">
-                  <button type="button" class="btn btn-default"> 1 </button>
-                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <span class="caret"></span>
-                    <span class="sr-only">Toggle Dropdown</span>
-                  </button>
-                </div>
-              </div>
-              <div class="col-md-1">
-              <!-- Split button -->
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-default"> 1 </button>
-                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <span class="caret"></span>
-                      <span class="sr-only">Toggle Dropdown</span>
-                    </button>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                <!-- Split button -->
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-default"> 1 </button>
-                      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="caret"></span>
-                        <span class="sr-only">Toggle Dropdown</span>
-                      </button>
-                    </div>
-                  </div>
 
+            <!-- Search Book Button -->
+            <div class="col-md-2 b-col">
+              <button type="button" class="btn-search-book">SEARCH BOOK</button>
+
+            </div>
+        </div>
       </div>
 
     </section>
+
+<!--  Booking split dropdown buittons -->
+
+
 
   </body>
 </html>
