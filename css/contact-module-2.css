@@ -12,6 +12,10 @@ p {
   font-size: 90%;
 }
 
+body {
+  background-color: white;
+}
+
 button {
   background-color: #7c7c7c;
   color: #ffffff;
