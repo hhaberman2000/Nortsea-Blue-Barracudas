@@ -14,19 +14,16 @@
 .news-detail-icons {
   padding-left: 3px;
   padding-right: 3px;
-  color: lightgray;
 }
 
 .news-text p {
   margin-bottom: 20px;
 }
-.news-detail-icons.fa-facebook {
-  color: #c0a878;
-}
 
 .jumbotron {
+
   background-color: #4c4c4c;
-  height: 400px;
+  height:400px;
   margin-bottom: 0;
   width: 650px;
 }
