@@ -1,5 +1,7 @@
-
-
+.box-it {
+  border: 2px solid black;
+  margin-left: : -15px;
+}
 
 .mod1 {
   padding:0;
@@ -31,10 +33,70 @@
   color: #ffffff;
   font-size: 10px;
   margin-top: 30px;
-  margin-left: -15px;
+  margin-left: 35px;
+  margin-right: -15px;
   /*padding: 10px 20px 10px 20px;*/
   height: 35px;
   width: 125px;
+}
+
+.btn-hotel {
+  font-size: 12px;
+  font-weight:600;
+  padding: 10px 25px 5px 25px;
+}
+
+.arrival {
+  padding-top: 9px;
+  margin-bottom: 0px;
+  margin-left: 6px;
+  margin-top: 3px;
+}
+
+.going {
+  padding-top: 9px;
+  margin-bottom: 0px;
+  margin-left: .5em;
+}
+
+.arrival-input {
+  height: 30px;
+  width: 85px;
+  padding-left: 10px;
+  margin-top: 4px;
+  margin-left:13px;
+
+  margin-bottom:21px;
+  font-size: 10px;
+}
+
+.going-input {
+  height: 30px;
+  width: 85px;
+  padding-left: 10px;
+  margin-top: 5px;
+  margin-left:6px;
+  margin-bottom:19px;
+  font-size: 10px;
+}
+
+.btn-border {
+  margin: 9px 23px 5px 14px;
+}
+
+.booking-dropdown-name {
+  margin: 9px 5px 0px 5px;
+}
+
+.btn-box-size {
+  height: 25px
+  width: 40px;
+}
+
+div.search-book-col {
+  width: 180px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 p.phrase1-mod1 {
@@ -43,7 +105,6 @@ p.phrase1-mod1 {
   font-weight: 100;
   padding-top: 52px;
   margin-bottom: 0px
-
 }
 
 p.phrase2-mod1 {
@@ -55,98 +116,20 @@ p.phrase2-mod1 {
   margin-top: 0px;
 }
 
-.btn-hotel {
-  font-size: 12px;
-  font-weight:600;
-  padding: 10px 25px 5px 25px;
+i.cal-position {
+  margin-right: 15px;
 }
 
-.b-row {
-  border: 2px solid brown;
-  height: 93px;
+div.drop-down-col {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  width: 400px;
 }
 
-/*.b-col {
-  border: 2px solid purple;
-}
-*/
-
-
-.arrival {
-  padding-top: 9px;
-  margin-bottom: 0px;
-}
-.going {
-  padding-top: 9px;
-  margin-bottom: 0px;
-}
-
-.arrival-input {
-  height: 30px;
-  width: 105px;
-  padding-left: 10px;
-  margin-top: 5px;
-  margin-left:10px;
-  margin-bottom:21px;
-  font-size: 10px;
-}
-
-.going-input {
-  height: 30px;
-  width: 105px;
-  padding-left: 10px;
-  margin-top: 5px;
-  margin-left:10px;
-  margin-bottom:21px;
-  font-size: 10px;
-}
-
-.btn-border {
-  /*border: 2px solid black;*/
-  height: 60px;
-  width: 90px;
-}
-
-.btn-box-size {
-  height: 25px
-  width: 40px;
-}
-
-.room {
-margin-top: 1px;
-padding-top: 6px;
-margin-bottom: 3px;
-}
-
-.btn-position1 {
+div.btn-position {
   margin-top: 0px;
-  margin-bottom: 10px;
-}
-.person {
-  margin-top: 2px;
-margin-bottom: 3px;
-}
-
-.btn-position2 {
-
-}
-
-.child {
-  margin-top: 2px;
-  margin-bottom: 3px;
-}
-
-.btn-position3 {
-
-}
-
-.day {
-  margin-top: 2px;
-  margin-bottom: 3px;
-}
-
-.btn-position4 {
-
+  margin-bottom: 17px;
+  padding-bottom: 0px;
 }
 
 img.indicator {
@@ -180,30 +163,4 @@ img.mod1-image3 {
 img.hotel-icon {
   height: 20px;
   width: 13px
-}
-
-/*#phrases-mod1 {
-  margin-left: 0
-}
-*/
-#easy-border {
-  border: 2px solid black;
-}
-
-.top-row {
-    border: 2px solid red;
-}
-
-#contentContainer {
-  margin:7.25% 19.5% -5% 19.5%;
-
-}
-
- /*REMOVE THIS COMMENT IF YOU WANT TO SEE THE PAGE IMAGE AS A BACKGROUND*/
-#bg {
-    background-image: url("01_index.jpg");
-    position: absolute;
-     width: 100%;
-     height: 100%;
-     background-size: cover;
 }
