@@ -1,8 +1,13 @@
-#easy-border {
-  border: 2px solid black;
+.border-news {
+  border: 1px solid lightgray;
+  background-color: white;
+  border-top: none;
+  margin-top: -6px;
+  padding-top: 25px;
+  padding: 10px;
+  border-radius: 2px;
 }
 
-#contentContainer {
-  margin:0% 19.5% 0% 19.5%;
-  border: 2px solid red;
+body {
+  background-image: url(/css/img/background-texture.png);
 }

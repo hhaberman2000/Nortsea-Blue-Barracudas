@@ -11,16 +11,7 @@
   margin-top: 20px;
 }
 
-.fa-facebook {
-  color: #c0a878;
-}
-
-.fa-twitter,
-.fa-google-plus-g {
-  color: #d7d7d7;
-}
-
-i.fab {
+.news-detail-icons {
   padding-left: 3px;
   padding-right: 3px;
 }
@@ -29,6 +20,10 @@ i.fab {
   margin-bottom: 20px;
 }
 
-body {
-  padding: 19rem;
+.jumbotron {
+
+  background-color: #4c4c4c;
+  height:400px;
+  margin-bottom: 0;
+  width: 650px;
 }
