@@ -1,4 +1,8 @@
+.box-it {
+  border: 2px solid black;
+  margin-left: : -15px;
 
+}
 
 
 .mod1 {
@@ -35,6 +39,11 @@
   /*padding: 10px 20px 10px 20px;*/
   height: 35px;
   width: 125px;
+}
+
+.cal-position {
+  margin-bottom: 150px;
+  margin-right: 100px
 }
 
 p.phrase1-mod1 {
@@ -75,18 +84,22 @@ p.phrase2-mod1 {
 .arrival {
   padding-top: 9px;
   margin-bottom: 0px;
+  margin-left: 6px;
+  margin-top: 3px;
 }
 .going {
   padding-top: 9px;
   margin-bottom: 0px;
+  margin-left: 56px;
 }
 
 .arrival-input {
   height: 30px;
   width: 105px;
   padding-left: 10px;
-  margin-top: 5px;
-  margin-left:10px;
+  margin-top: 4px;
+  margin-left:13px;
+
   margin-bottom:21px;
   font-size: 10px;
 }
@@ -96,8 +109,8 @@ p.phrase2-mod1 {
   width: 105px;
   padding-left: 10px;
   margin-top: 5px;
-  margin-left:10px;
-  margin-bottom:21px;
+  margin-left:64px;
+  margin-bottom:19px;
   font-size: 10px;
 }
 
@@ -121,6 +134,7 @@ margin-bottom: 3px;
 .btn-position1 {
   margin-top: 0px;
   margin-bottom: 10px;
+  margin-left: 30px;
 }
 .person {
   margin-top: 2px;
