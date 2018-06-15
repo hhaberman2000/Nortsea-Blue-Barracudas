@@ -1,0 +1,32 @@
+.date-box {
+  box-sizing: content-box;
+  color: white;
+  background-color: #c0a878;
+  border: 8px solid #c0a878;
+  position: relative;
+}
+
+.details {
+  margin-bottom: 18px;
+  margin-top: 20px;
+}
+
+.news-detail-icons {
+  padding-left: 3px;
+  padding-right: 3px;
+  color: lightgray;
+}
+
+.news-text p {
+  margin-bottom: 20px;
+}
+.news-detail-icons.fa-facebook {
+  color: #c0a878;
+}
+
+.jumbotron {
+  background-color: #4c4c4c;
+  height: 400px;
+  margin-bottom: 0;
+  width: 650px;
+}

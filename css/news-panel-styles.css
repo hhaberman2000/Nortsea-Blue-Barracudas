@@ -1,0 +1,32 @@
+
+#recent-tab {
+  background-color: #313131;
+  color: white;
+  border-top: #c0a878;
+}
+
+.recent-tab {
+  color:white;
+}
+
+.gold-news {
+  color: #c0a878;
+}
+
+#gold-tab{
+  color: #c0a878;
+}
+
+#popular-tab {
+  border-top: 3px solid #c0a878;
+}
+
+#popular-tab, #recent-tab {
+  border-radius: 0;
+  width: 50%;
+  text-align: center;
+}
+
+.panel-default {
+  margin-top: 68px;
+}

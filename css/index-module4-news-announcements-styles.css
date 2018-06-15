@@ -1,0 +1,48 @@
+#module04-border{
+  border: 1px solid lightgray;
+  padding: 1% 3% 1% 3%;
+  /* margin: 5px; */
+}
+
+.news-announcements {
+  /* margin: 5px 0px 5px 0px; */
+  padding: 10px 0px 10px 0px;
+}
+
+.read-more-news-links {
+  justify-content:
+}
+
+.announcement-header-wrapper {
+  width: 80%;
+}
+.media-body {
+  width: 20%;
+}
+
+ .news-block {
+  margin-right: 20px;
+}
+
+.announcement-block {
+  margin-bottom: 25px;
+}
+
+.btn-view-all {
+  border-radius: 0px;
+  width: 100%;
+}
+
+.announcement-dots {
+  padding-top: 10%;
+}
+
+.blue-products {
+  color: blue;
+  font-weight: 1000;
+}
+
+#product-text-wrapper {
+  padding: 5% 40% 8% 5%
+}
+

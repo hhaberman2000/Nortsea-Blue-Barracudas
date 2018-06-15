@@ -1,0 +1,44 @@
+#bg {
+  background-color: #313131;
+}
+
+#easy-border {
+  border: 2px solid black;
+}
+
+#contentContainer {
+  margin:0% 19.5% 0% 19.5%;
+  border: 2px solid red;
+}
+
+.nav-history {
+text-align: right;
+margin-top: 10%;
+font-size: 90%;
+}
+
+h1 {
+  text-align:center;
+  color: #c0a878;
+  letter-spacing: 1rem;
+  margin-top: 10%;
+}
+
+p {
+  color:#c8c8c8;
+  text-align: center;
+}
+
+h4 {
+  color: #c0a878;
+  font-size: 150%;
+  margin-top: 10%;
+}
+
+.bold {
+  padding: 3% 10% 3% 10%;
+  font-weight: bold;
+}
+.about-us-info {
+  padding: 0% 10% 5% 10%;
+}

@@ -1,0 +1,13 @@
+.border-news {
+  border: 1px solid lightgray;
+  background-color: white;
+  border-top: none;
+  margin-top: -6px;
+  padding-top: 25px;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+body {
+  background-image: url(/css/img/background-texture.png);
+}
