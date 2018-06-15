@@ -83,17 +83,34 @@ li {
   padding-top: 10px;
 }
 /* END NAV STYLES************************************************************************************************* */
-p h3 {
+p, h3, h2, body {
   font-family: 'Nunito', sans-serif;
 }
-.news-jumbo {
-  width: 100%;
-  background-color: #313131;
-  color:#c8c8c8;
-  margin: 0 0 2em 0;
+
+.date-jumbo {
+font-size: 12px;
 }
 
 
+.thumbnail-heading {
+  font-size: 15px;
+  color:#313131;
+}
+.news-jumbo {
+  background-color: #313131;
+  color:#c8c8c8;
+  padding: 1em 0 0 0;
+  margin: 0em 0em .5em 0em;
+  padding: 2.5em 0em 0em 0em;
+  font-size: 20px;
+
+}
+
+.press-play {
+  padding-left: 1.2em;
+  padding-top: .8em;
+  color: gray;
+}
 
 #expand {
   padding: 0%;
@@ -115,9 +132,27 @@ p h3 {
     /* width: 191px; */
     height: 150px;
     margin: -1%;
+  }
 
     /* margin-left: -1%; */
+
+.thumbnail-expand-black {
+        display: block;
+        line-height: 1.42857143;
+        background-color: #313131;
+        border-radius: 0px;
+        -webkit-transition: border .2s ease-in-out;
+        -o-transition: border .2s ease-in-out;
+        transition: border .2s ease-in-out;
+        height: 300px;
+        margin: -1%;
+        /* margin-top: -1.5em; */
 }
+
+.black-box {
+  padding: 3em 1em 1em 1em;
+}
+
 .image-center {
   display: block;
      margin-left: auto;
@@ -135,8 +170,24 @@ p h3 {
 }
 
 .thumbnail-date {
-
+  color: #ccc;
+  font-size: 11px;
+  font-family: nunito;
 }
+
+.panel-date {
+  color: #ccc;
+  font-size: 8px;
+  font-family: nunito;
+}
+
+.thumbnail-date-black {
+  color: #ccc;
+  font-size: 11px;
+  font-family: nunito;
+  margin-left: 20%;
+}
+
 
 #btn-read-more-gold {
   background-color: #c0a878;
@@ -145,6 +196,38 @@ p h3 {
   border: 0px;
 }
 
+#btn-read-more-gold-black {
+  background-color: #c0a878;
+  color: white;
+  border-radius: 0px;
+  border: 0px;
+  margin: 20%
+}
+
+.hr-thumbnail {
+  margin-top: -5px;
+}
+
+.thumb-custom {
+  color: grey;
+  font-family: nunito;
+  font-size: 10px;
+  font-weight: lighter;
+}
+
+.thumb-custom-panel {
+  color: grey;
+  font-family: nunito;
+  font-size: 8px;
+  font-weight: lighter;
+}
+
+.thumb-custom-black {
+  font-size: 12px;
+  font-family: 'Playfair Display', serif;
+  color: #c8c8c8;
+  text-align: center;
+}
 
 /* styles for the panel */
 #container-thumbnails {
@@ -178,4 +261,83 @@ p h3 {
   border-radius: 0;
   width: 50%;
   text-align: center;
+}
+
+/* FOOTER CSSS "BELOW THIS LINE" ======================================================== */
+
+.tc {
+  color: #acacac;
+}
+
+.br {
+  height: 60px;
+  background-color: #3f3f3f;
+  padding-top: 1.5rem;
+  color: #acacac;
+}
+
+.tr {
+  height: 250px;
+  background-color: #383838;
+}
+
+.read-more {
+  color: #636363;
+}
+
+.read-more i {
+  position: relative;
+  top: 1.4px;
+  left: 10px;
+}
+
+.column-2-list li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+.fa-map-marker-alt,
+.glyphicon-earphone,
+.fa-telegram-plane,
+.fa-compass {
+  margin-right: 5px;
+}
+
+.footer-icons {
+  color: #c0a878;
+}
+
+.logo-footer {
+  margin-top: 65px;
+  margin-left: 30px;
+}
+
+.glyphicon-earphone {
+  margin-right: 13px;
+}
+
+.fa-telegram-plane {
+  padding-right: 17px;
+}
+
+.fa-compass {
+  padding-right: 19px;
+}
+
+.con-row {
+  margin-bottom: 2px;
+}
+
+.bord-bottom {
+  border-bottom: 1px solid #464646;
+  margin-bottom: 5px;
+}
+
+#bottom-row-1 span {
+  padding-left: 10px;
+  font-weight: 100
+}
+
+#bottom-row-1 {
+    font-weight: 100;
 }
