@@ -1,3 +1,4 @@
+
 #square-button {
   border-radius: 0px;
   border: 1px solid lightgray;
@@ -12,32 +13,25 @@
   color: #c0a878;
 }
 
-#square-button:focus {
-  border: 1px solid #c0a878;
-  border-bottom: 3px solid #c0a878;
-  background-color: white;
-  color: #c0a878;
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-gap: 20px;
+  grid-auto-rows: 175px;
+  padding-top: 20px;
+  width: 91%;
 }
 
-.arrows {
-  display: inline-block;
-  margin-left: 47%;
+
+#gallery-container {
+  margin: 0% 19.5% 0% 19.5%;
 }
 
 .image-box {
-  width: 210px;
-  height: 210px;
   background-color: lightgray;
-  padding: 70px 35px 70px 35px;
-  margin: 15px 0px 15px 0px;
-  align-content: center;
+  padding: 60px 0px 0px 0px;
 }
 
-img {
-  margin-left: 30%;
-}
-
-body {
-  background-image: url(./img/background-texture.png)
-
+.gallery-img {
+  margin-left: 35%;
 }
