@@ -50,7 +50,7 @@
     padding-top: 9px;
     margin-bottom: 0px;
     margin-left: 12px;
-    margin-top: 11px;
+    margin-top: 10px;
 }
 
 .going {
@@ -63,8 +63,8 @@
 }
 
 .arrival-input {
-  height: 33px;
-  width: 65px;
+  height: 32px;
+  width: 80px;
   padding-left: 10px;
   margin-top: 3px;
   margin-left:13px;
@@ -75,8 +75,8 @@
 }
 
 .going-input {
-    height: 33px;
-    width: 65px;
+    height: 32px;
+    width: 75px;
     padding-left: 10px;
     margin-top: 3px;
     margin-left: 14px;
@@ -85,6 +85,7 @@
     border: 1px solid #c8c8c8;
     border-right-style: none;
 }
+
 
 .btn-border {
   margin: 9px 23px 5px 14px;
@@ -127,8 +128,9 @@ p.phrase2-mod1 {
 i.cal-position {
   color: #c8c8c8;
   border: 1px solid #c8c8c8;
-  padding: 7px 2px 8px 0px;
+  padding: 6px 2px 8px 0px;
   border-left-style: none;
+
 }
 
 div.drop-down-col {

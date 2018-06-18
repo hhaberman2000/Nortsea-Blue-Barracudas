@@ -1,6 +1,11 @@
 
 body {
   font-family: 'Nunito', sans-serif;
+  background-image: url(img/background-texture.png);
+  height:100%;
+  width:100%;
+  background-size: cover;
+
 }
 
 .blue-products {
@@ -45,8 +50,8 @@ body {
   grid-auto-rows: 100px;
   grid-gap: 25px;
   margin: 1% 19.5% 1% 19.5%;
-
 }
+
 .wrapper div:nth-child(2) {
   grid-column: 4/6;
   grid-row: 1 / 4;
