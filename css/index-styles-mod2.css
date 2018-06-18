@@ -1,0 +1,169 @@
+
+
+
+img.mod2-image1 {
+  margin-top: 16px;
+  margin-left: 46px;
+  height: 35px;
+  width: 40px
+}
+
+h1.header-text1 {
+  font-size: 16px;
+  margin-top: 12px;
+  margin-left: 15px;
+  margin-bottom: 8px;
+}
+
+p.image-caption1 {
+  color: #c8c8c8;
+  font-size: 11px;
+  text-align: center;
+  margin-left: -25px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+a.read-more1 {
+  color: #c8c8c8;
+  font-size: 11px;
+  margin-left: 40px;
+  margin-bottom: 25px;
+
+}
+
+img.mod2-image2 {
+  margin-top: 12px;
+  margin-left: 68px;
+  height: 33px;
+  width: 37px
+}
+
+h1.header-text2 {
+  color: #c0a878;
+  font-size: 16px;
+  margin-top: 18px;
+  margin-left: 50px;
+  margin-bottom: 9px;
+}
+
+p.image-caption2 {
+  color: #c8c8c8;
+  font-size: 11px;
+  text-align: center;
+  margin-right: -5px;
+  margin-left: -25px;
+  margin-bottom: 10px;
+}
+
+a.read-more2 {
+  color: #c0a878;
+  font-size: 11px;
+  margin-left: 56px;
+  margin-bottom: 31px;
+}
+
+img.mod2-image3 {
+  margin-top: 11px;
+  margin-left: 80px;
+  height: 35px;
+  width: 43px
+}
+
+h1.header-text3 {
+  font-size: 16px;
+  margin-top: 19px;
+  margin-left: 47px;
+  margin-bottom: 9px;
+}
+
+p.image-caption3 {
+  color: #c8c8c8;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: -5px;
+  margin-bottom: 20px;
+  margin-left: -40px;
+}
+
+a.read-more3 {
+  color: #c8c8c8;
+  font-size: 11px;
+  margin-left: 22px;
+  margin-bottom: 33px;
+}
+
+img.mod2-image4 {
+  margin-top: 9px;
+  margin-left: 93px;
+  height: 37px;
+  width: 47px
+}
+
+h1.header-text4 {
+  font-size: 16px;
+  margin-top: 17px;
+  margin-left: 68px;
+  margin-bottom: 6px;
+}
+
+p.image-caption4 {
+  color: #c8c8c8;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 8px;
+  margin-right: -20px;
+  margin-left: 15px;
+  margin-bottom: 0px;
+}
+
+a.read-more4 {
+  color: #c8c8c8;
+  font-size: 11px;
+  margin-left: 84px;
+  margin-top: 15px;
+}
+
+h1.header-text5 {
+  color: #c0a878;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 200;
+  margin-top: 25px;
+  margin-right: 11px;
+}
+
+p.image-caption5 {
+  color: #c8c8c8;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 17px;
+  margin-right: 0px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+
+div.row2  {
+  margin: 3% 0% 0% 0%;
+}
+
+section.container-mod2 {
+  margin: 4% 19.5% 0% 19.5%;
+
+}
+
+/* .top-row {
+    border: 2px solid red; */
+
+/* #easy-border {
+  border: 2px solid black;
+}
+
+.top-row {
+    border: 2px solid red;
+}
+
+#contentContainer {
+  margin:47% 19.5% 102% 19.5%;
+
+} */

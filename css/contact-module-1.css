@@ -1,0 +1,44 @@
+#contentContainer {
+  margin:0% 19.5% 0% 19.5%;
+  border: 2px solid red;
+}
+/*REMOVE THIS COMMENT IF YOU WANT TO SEE THE PAGE IMAGE AS A BACKGROUND*/
+#bg {
+  background-color: #313131;
+
+}
+
+.nav-history {
+  text-align: right;
+  padding: 9% 0% 0% 0%;
+  color: #c8c8c8;
+}
+
+h1 {
+  text-align:center;
+  color: #c0a878;
+  padding: 3% 0% 3% 0%;
+}
+
+p {
+  color:#c8c8c8;
+  text-align: center;
+}
+
+h4 {
+  color: #c0a878;
+  font-size: 150%;
+  padding: 5% 0% 0% 0%;
+}
+
+.address {
+  font-weight: bold;
+  font-size: 120%;
+  padding: 0% 0% 3% 0%;
+  color: #c8c8c8;
+}
+
+.phone {
+  padding: 0% 0% 10% 0%;
+  color: #c8c8c8;
+}

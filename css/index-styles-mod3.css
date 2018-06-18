@@ -1,0 +1,61 @@
+
+.box-it {
+  padding-top: 48px;
+  text-align: center;
+  border: 8px solid #464646;
+  margin: 0% -3% 1.3% -5%;
+  height: 161px;
+}
+
+.box-it-center {
+  padding-top: 48px;
+  text-align: center;
+  border: 8px solid #464646;
+  margin: 0% -5% 0% -5%;
+  height: 161px;
+}
+
+.box-it-right {
+  padding-top: 48px;
+  text-align: center;
+  border: 8px solid #464646;
+  margin: 0% -5% 0% -2%;
+  height: 161px;
+}
+
+p.captions {
+  color: #c8c8c8;
+  padding: 7px 20px 0px 20px;
+  font-size: 11px;
+}
+a.box-read-more {
+  color: #c8c8c8;
+  margin-top:24px;
+  margin-right:-8px;
+  font-size: 12px;
+}
+
+section.container-mod3 {
+  margin:1.8% 19.5% 0% 19.5%;
+}
+/* #easy-border {
+  border: 2px solid black;
+}
+
+.top-row {
+    border: 2px solid red;
+}
+
+#contentContainer {
+  margin:71.75% 19.5% 85% 19.5%;
+
+}
+
+ /*REMOVE THIS COMMENT IF YOU WANT TO SEE THE PAGE IMAGE AS A BACKGROUND*/
+/* #bg {
+    background-image: url("01_index.jpg");
+    position: absolute;
+     width: 100%;
+     height: 100%;
+     background-size: cover;
+} */
