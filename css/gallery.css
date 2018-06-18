@@ -1,12 +1,6 @@
-#easy-border {
-  border: 2px solid black;
+body {
+  font-family: nunito;
 }
-
-#contentContainer {
-  margin:0% 19.5% 0% 19.5%;
-  border: 2px solid red;
-}
-
 
 #square-button {
   border-radius: 0px;
@@ -21,6 +15,7 @@
   background-color: white;
   color: #c0a878;
 }
+
 
 .wrapper {
   display: grid;
@@ -37,6 +32,7 @@
 
 #gallery-container {
   padding: 0% 19.5% 0% 19.5%;
+  background: url(https://files.slack.com/files-pri/T44ULKQPL-F9YMDFCP9/background-texture.png)
 }
 
 .image-box {
