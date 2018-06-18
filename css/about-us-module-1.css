@@ -1,15 +1,4 @@
-#bg {
-  background-color: #313131;
-}
 
-#easy-border {
-  border: 2px solid black;
-}
-
-#contentContainer {
-  margin:0% 19.5% 0% 19.5%;
-  border: 2px solid red;
-}
 
 .nav-history {
 text-align: right;
@@ -17,28 +6,37 @@ margin-top: 10%;
 font-size: 90%;
 }
 
-h1 {
+h1.title-header {
   text-align:center;
   color: #c0a878;
   letter-spacing: 1rem;
   margin-top: 10%;
+  font-family: 'Noto Serif',sans-serif;
 }
 
 p {
   color:#c8c8c8;
-  text-align: center;
+
 }
 
 h4 {
   color: #c0a878;
   font-size: 150%;
   margin-top: 10%;
+  font-family: 'Nunito',sans-serif;
 }
 
 .bold {
   padding: 3% 10% 3% 10%;
-  font-weight: bold;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Nunito',sans-serif;
+  font-style: italic;
 }
 .about-us-info {
-  padding: 0% 10% 5% 10%;
+  padding: 0% 10% 15% 10%;
+  text-align: center;
+  font-weight: 300;
+  font-family: 'Nunito',sans-serif;
+  font-style: italic;
 }
