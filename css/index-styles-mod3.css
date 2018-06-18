@@ -2,37 +2,43 @@
 .box-it {
   padding-top: 48px;
   text-align: center;
-  border: 7px solid black;
-  margin: 0% -3% 3.75% -5%;
+  border: 8px solid #464646;
+  margin: 0% -3% 1.3% -5%;
+  height: 161px;
 }
 
 .box-it-center {
   padding-top: 48px;
   text-align: center;
-  border: 7px solid black;
+  border: 8px solid #464646;
   margin: 0% -5% 0% -5%;
+  height: 161px;
 }
 
 .box-it-right {
   padding-top: 48px;
   text-align: center;
-  border: 6px solid black;
+  border: 8px solid #464646;
   margin: 0% -5% 0% -2%;
+  height: 161px;
 }
 
 p.captions {
   color: #c8c8c8;
-  padding-top: 7px;
+  padding: 7px 20px 0px 20px;
   font-size: 11px;
 }
-.read-more {
+a.box-read-more {
   color: #c8c8c8;
   margin-top:24px;
-  margin-right:13px;
+  margin-right:-8px;
   font-size: 12px;
 }
 
-#easy-border {
+section.container-mod3 {
+  margin:1.8% 19.5% 0% 19.5%;
+}
+/* #easy-border {
   border: 2px solid black;
 }
 
@@ -46,10 +52,10 @@ p.captions {
 }
 
  /*REMOVE THIS COMMENT IF YOU WANT TO SEE THE PAGE IMAGE AS A BACKGROUND*/
-#bg {
+/* #bg {
     background-image: url("01_index.jpg");
     position: absolute;
      width: 100%;
      height: 100%;
      background-size: cover;
-}
+} */

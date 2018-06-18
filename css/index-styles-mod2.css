@@ -19,14 +19,15 @@ p.image-caption1 {
   color: #c8c8c8;
   font-size: 11px;
   text-align: center;
-  margin-right: 40px;
-  margin-bottom: 2px;
+  margin-left: -25px;
+  margin-right: 20px;
+  margin-bottom: 10px;
 }
-p.read-more1 {
-  color: #c0a878;
+a.read-more1 {
+  color: #c8c8c8;
   font-size: 11px;
   margin-left: 40px;
-  margin-bottom: 24px;
+  margin-bottom: 25px;
 
 }
 
@@ -49,22 +50,23 @@ p.image-caption2 {
   color: #c8c8c8;
   font-size: 11px;
   text-align: center;
-  margin-right: 28px;
-  margin-bottom: 0px;
+  margin-right: -5px;
+  margin-left: -25px;
+  margin-bottom: 10px;
 }
 
-p.read-more2 {
+a.read-more2 {
   color: #c0a878;
   font-size: 11px;
-  margin-left: 50px;
-  margin-bottom: 32px;
+  margin-left: 56px;
+  margin-bottom: 31px;
 }
 
 img.mod2-image3 {
   margin-top: 11px;
   margin-left: 80px;
-  height: 33px;
-  width: 37px
+  height: 35px;
+  width: 43px
 }
 
 h1.header-text3 {
@@ -79,15 +81,16 @@ p.image-caption3 {
   font-size: 11px;
   text-align: center;
   margin-top: 10px;
-  margin-right: 10px;
-  margin-bottom: 0px;
+  margin-right: -5px;
+  margin-bottom: 20px;
+  margin-left: -40px;
 }
 
-p.read-more3 {
-  color: #c0a878;
+a.read-more3 {
+  color: #c8c8c8;
   font-size: 11px;
   margin-left: 22px;
-  margin-bottom: 32px;
+  margin-bottom: 33px;
 }
 
 img.mod2-image4 {
@@ -109,13 +112,13 @@ p.image-caption4 {
   font-size: 11px;
   text-align: center;
   margin-top: 8px;
-  margin-right: 0px;
-  margin-left: 20px;
+  margin-right: -20px;
+  margin-left: 15px;
   margin-bottom: 0px;
 }
 
-p.read-more4 {
-  color: #c0a878;
+a.read-more4 {
+  color: #c8c8c8;
   font-size: 11px;
   margin-left: 84px;
   margin-top: 15px;
@@ -126,8 +129,8 @@ h1.header-text5 {
   text-align: center;
   font-size: 30px;
   font-weight: 200;
-  margin-top: 22px;
-  margin-right: 0px;
+  margin-top: 25px;
+  margin-right: 11px;
 }
 
 p.image-caption5 {
@@ -140,7 +143,19 @@ p.image-caption5 {
   margin-bottom: 0px;
 }
 
-#easy-border {
+div.row2  {
+  margin: 3% 0% 0% 0%;
+}
+
+section.container-mod2 {
+  margin: 4% 19.5% 0% 19.5%;
+
+}
+
+/* .top-row {
+    border: 2px solid red; */
+
+/* #easy-border {
   border: 2px solid black;
 }
 
@@ -151,13 +166,4 @@ p.image-caption5 {
 #contentContainer {
   margin:47% 19.5% 102% 19.5%;
 
-}
-
- /*REMOVE THIS COMMENT IF YOU WANT TO SEE THE PAGE IMAGE AS A BACKGROUND*/
-#bg {
-    background-image: url("01_index.jpg");
-    position: absolute;
-     width: 100%;
-     height: 100%;
-     background-size: cover;
-}
+} */
