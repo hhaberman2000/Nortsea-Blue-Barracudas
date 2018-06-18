@@ -1,0 +1,97 @@
+.nav-right {
+  background-color: #363636;
+  padding: 0.5rem;
+  padding-right: 150px;
+  padding-left: 80px;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  text-align: center;
+  border-bottom: 5px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid white;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid white;
+}
+
+.nav-img {
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 55px;
+}
+
+.lower-nav li a {
+  color: #919191;
+}
+
+.fa-search {
+  padding-left: 10px;
+}
+
+.login {
+  box-sizing: content-box;
+  width: 100px;
+  height: 25px;
+  padding: 5px;
+  padding-left: 13px;
+  border: 0.1px solid #4c4c4c;
+}
+
+.login i {
+  float: right;
+  padding-top: 3px;
+}
+
+.lang i {
+  float: right;
+  padding-top: 3px;
+}
+.lang {
+  box-sizing: content-box;
+  width: 100px;
+  height: 25px;
+  padding: 5px;
+  padding-left: 13px;
+  margin-left: 10px;
+  border: 0.1px solid #4c4c4c;
+}
+.nav-facebook {
+  color: gray;
+}
+
+.social-icons {
+  box-sizing: content-box;
+  width: 100px;
+  height: 25px;
+  padding: 5px;
+  padding-left: 15px;
+  margin-left: 4px;
+  border: 0.1px solid #4c4c4c;
+  float: right;
+  font-size: 18px;
+}
+
+.social-icons i {
+  padding: 1px;
+}
+
+header li {
+  color: gray;
+}
+
+li {
+  list-style-type: none;
+}
+.top-row {
+  padding-top: 10px;
+}

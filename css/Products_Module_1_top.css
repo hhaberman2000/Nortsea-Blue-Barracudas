@@ -1,0 +1,15 @@
+.background-container {
+  height: 300px;
+  width: 100%;
+  background-color: #313131;
+}
+
+
+.product-header {
+    color: #c0a878;
+}
+
+.tab-text {
+    color: #8b8b8b;
+    margin-top: 30px;
+}
