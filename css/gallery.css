@@ -32,7 +32,10 @@ body {
 
 #gallery-container {
   padding: 0% 19.5% 0% 19.5%;
-  background: url(https://files.slack.com/files-pri/T44ULKQPL-F9YMDFCP9/background-texture.png)
+  background-image: url(img/background-texture.png);
+  height:100%;
+  width:100%;
+  background-size: cover;
 }
 
 .image-box {
