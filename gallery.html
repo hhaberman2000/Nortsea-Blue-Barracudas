@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gallery</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/gallery.css">
     <link rel="stylesheet" href="css/Products_Module_1_top.css">
     <link rel="stylesheet" href="css/nav-bar-style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Nunito:400,600" rel="stylesheet">
   </head>
   <body>
     <header class="container-fluid nav-header">
@@ -53,26 +54,26 @@
                 <div class="row lower-nav">
                     <ul class="col-md-12  nav topnav">
                         <li class="col-md-2 ">
-                            <a href="#" class="active">Home</a>
+                            <a href="index.html">Home</a>
                         </li>
                         <li class="col-md-2 ">
-                            <a href="#">About Us</a>
+                            <a href="about-us.html">About Us</a>
                         </li>
                         <li class="col-md-2 ">
-                            <a href="#">Services
+                            <a href="services.html">Services
                                 <i class="caret"></i>
                             </a>
                         </li>
                         <li class="col-md-2 ">
-                            <a href="#">Products
+                            <a href="products.html">Products
                                 <i class="caret"></i>
                             </a>
                         </li>
                         <li class="col-md-2 ">
-                            <a href="#">Gallery </a>
+                            <a href="gallery.html" class="active">Gallery </a>
                         </li>
                         <li class="col-md-2 ">
-                            <a href="#">Contact
+                            <a href="contact.html">Contact
                                 <i class="
                                     fas fa-search" style="position: relative; left: 32px;"></i>
                             </a>
@@ -87,32 +88,26 @@
 
         </div>
     </header>
-      <div class="container-fluid background-container">
-          <div class="row">
-              <div class="col-md-1 bcr"></div>
-              <div class="col-md-2 bcr">
+      <div class="container-fluid">
+          <div class="row background-container">
+              <div class="col-md-5 bcr">
                   <h3 class="product-header">Gallery</h3>
               </div>
-              <div class="col-md-2 bcr"></div>
-              <div class="col-md-1 bcr" style="margin-top: 140px;">
+              <div class="col-md-2 bcr" style="margin-top: 140px;">
                   <img src="css/img/about-us-img.png" alt="">
               </div>
-              <div class="col-md-2 bcr"></div>
-              <div class="col-md-3 bcr tab-text">
+              <div class="col-md-5 bcr tab-text">
                   <p>Home
                       <span style="display:inline-block; width: 15px;"></span>/
                       <span style="display:inline-block; width: 15px;"></span>Products
                       <span style="display:inline-block; width: 15px;"></span>/
                       <span style="display:inline-block; width: 15px;"></span>Pages</p>
               </div>
-              <div class="col-md-1 bcr"></div>
-              <div class="col-md-2 bcr"></div>
-
           </div>
         </div>
 
         <div class="container-fluid" id="gallery-container">
-         <h1>Gallery</h1>
+         <h1 class="no-margin">Gallery</h1>
          <!--these are the buttons on the top left-->
          <div class="row">
            <div class="col-md-9">
@@ -122,13 +117,13 @@
             <button type="button" class="btn btn-default" id="square-button">Bar</button>
             <button type="button" class="btn btn-default" id="square-button">Gym</button>
             </div>
-          <div class="col-md-3">
+          <div class="col-md-3 add-margin">
             <div class="arrows"><!--these are the arrows on the right-->
               <button type="button" class="btn btn-default" id="square-button"><</button>
               <button type="button" class="btn btn-default" id="square-button">></button>
             </div>
         </div>
-      </dsiv>
+      </div>
 
       <div class="wrapper"><!--wrapper for all the images-->
 
@@ -163,7 +158,6 @@
            <div class="image-box"<a href="#" class="thumbnail"><img class="gallery-img" src="assets/about-us-img.png" alt="image">
            </div>
        </div><!--end of image wrapper-->
-     </div>
      </div><!--end of container-->
        <footer>
            <div class="container-fluid">

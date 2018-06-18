@@ -1,7 +1,7 @@
 .background-container {
   height: 300px;
-  width: 100%;
   background-color: #313131;
+  padding: 0 19.5% 0 19.5%;
 }
 
 
@@ -12,4 +12,5 @@
 .tab-text {
     color: #8b8b8b;
     margin-top: 30px;
+    text-align: right;
 }
