@@ -3,6 +3,8 @@
   display: block;
   text-align: center;
   margin-top: 8px;
+  font-family: 'Nunito',sans-serif;
+
 }
 .profile-status {
   margin: auto;
@@ -24,18 +26,35 @@
 .team-h1 {
   color: #c0a878;
   font-weight: 300;
+  padding:10% 0% 0% 0%;
 }
 
 .team-p {
-  color: #969eb2;
+  font-family: 'Nunito',sans-serif;
+  color: #a3a3a3;
+
+}
+.team-p-desc {
+  color: #a3a3a3;
+  font-family: 'Nunito',sans-serif;
+  margin: 5% -20% 0% -20%;
 }
 
 .team-icons {
-  color: #969eb2;
+  color: #d7d7d7;
+
 }
 
 .team-icons-position {
-  margin: auto;
-  display: block;
-  margin-left: 80px;
+  margin:auto;
+  text-align: center;
+  padding: 0% 0%;
+  font-size: 150%;
+
+}
+
+.pic-placeholder {
+  background-color: #e3e3e3;
+  border-radius: 100%;
+  padding: 40% 50%;
 }

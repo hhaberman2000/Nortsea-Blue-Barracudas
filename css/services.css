@@ -4,14 +4,24 @@
 
 #contentContainer {
   margin:0% 19.5% 0% 19.5%;
-  border: 2px solid red;
 }
 
  /*REMOVE THIS COMMENT IF YOU WANT TO SEE THE PAGE IMAGE AS A BACKGROUND*/
 #bg {
-    background-image: url("09_services.jpg");
+    background-color: #313131;
     position: absolute;
      width: 100%;
      height: 100%;
      background-size: cover;
+}
+
+.hotel-facilities {
+  padding: 0% 10% 5% 10%
+}
+.nav-img-white {
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 55px;
+  background-color: white;
+  padding-bottom: 35px;
 }

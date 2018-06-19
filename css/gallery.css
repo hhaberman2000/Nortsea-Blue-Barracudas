@@ -1,8 +1,48 @@
-#easy-border {
-  border: 2px solid black;
+body {
+  font-family: nunito;
 }
 
-#contentContainer {
-  margin:0% 19.5% 0% 19.5%;
-  border: 2px solid red;
+#square-button {
+  border-radius: 0px;
+  border: 1px solid lightgray;
+  padding: 5px 20px 5px 20px;
+  margin: 2px;
+}
+
+#square-button:hover {
+  border: 1px solid #c0a878;
+  border-bottom: 3px solid #c0a878;
+  background-color: white;
+  color: #c0a878;
+}
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-gap: 20px;
+  grid-auto-rows: 175px;
+  padding: 20px 0pc 20px 0px;
+  width: 91%;
+}
+
+.arrows {
+  text-align: right;
+}
+
+#gallery-container {
+  padding: 0% 19.5% 0% 19.5%;
+  background-image: url(img/background-texture.png);
+  height:100%;
+  width:100%;
+  background-size: cover;
+}
+
+.image-box {
+  background-color: lightgray;
+  padding: 60px 0px 0px 0px;
+}
+
+.gallery-img {
+  margin-left: 35%;
 }
