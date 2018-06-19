@@ -37,6 +37,11 @@ a.box-read-more {
 
 section.container-mod3 {
   margin:1.8% 19.5% 0% 19.5%;
+  /* background-image: url(img/background-texture.png);
+  height:100%;
+  width:100%;
+  background-size: cover; */
+
 }
 /* #easy-border {
   border: 2px solid black;

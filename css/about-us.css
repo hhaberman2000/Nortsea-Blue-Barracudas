@@ -1,12 +1,22 @@
-#easy-border {
-  border: 2px solid black;
-}
-
 #contentContainer {
   margin:0% 19.5% 0% 19.5%;
-  border: 2px solid red;
 }
 
+#bg {
+  background-image: url(img/background-texture.png);
+  height:100%;
+  width:100%;
+  background-size: cover;
+}
+
+.dark-background {
+  background-color: #313131;
+  margin: 0% -35%;
+  padding: 0 39%;
+}
+.profile-img-placeholder {
+  margin: 0px 0px 0px -20px;
+}
 /* REMOVE THIS COMMENT IF YOU WANT TO SEE THE PAGE IMAGE AS A BACKGROUND
 #bg
     background-image: url("02_about_us.jpg");

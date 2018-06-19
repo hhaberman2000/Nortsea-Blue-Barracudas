@@ -3,7 +3,7 @@
   border: 2px solid red;
 }
 /*REMOVE THIS COMMENT IF YOU WANT TO SEE THE PAGE IMAGE AS A BACKGROUND*/
-#bg {
+/* #bg { */
   background-color: #313131;
 
 }
@@ -22,7 +22,7 @@ h1 {
 
 p {
   color:#c8c8c8;
-  text-align: center;
+  /* text-align: center; */
 }
 
 h4 {

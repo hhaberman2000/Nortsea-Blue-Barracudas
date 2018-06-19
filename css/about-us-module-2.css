@@ -1,49 +1,57 @@
-#contentContainer {
-  margin:0% 19.5% 0% 19.5%;
-  border: 2px solid red;
-}
-
-#easy-border {
-  border: 2px solid black;
+i.biggest-icon {
+  font-size: 450%;
+  text-align: center;
+  color: #464646;
 }
 
 i.bigger-icon {
   font-size: 350%;
   text-align: center;
+  color: #464646;
 }
 
 i.smaller-icon {
   font-size: 100%;
 }
 
-i {
-  font-size:250%;
-  text-align: center;
-}
 
-p {
+p.center-align {
   text-align: center;
 }
 p.description {
   color: #a3a3a3;
   font-size: 80%;
+  text-align: center;
+  font-family: 'Nunito',sans-serif;
+
 }
 
-h3 {
+h3.travel-bar {
   text-align: center;
   font-size: 125%
 }
+h3.travel-bar.nice-support {
+  text-align: center;
+  font-size: 125%;
+  margin: -5% 0% 6% 0%;
+}
 
-img {
+.suitcase-img {
   margin: 15% 0% 0% 38%;
+  height: 40%;
+  width: 40%;
+}
+.world-img {
+  margin: 5% 0% 0% 0%;
   height: 40%;
   width: 40%;
 }
 p.icon-spacer {
   padding: 10% 0% 0% 0%;
+  text-align: center;
 }
 
 a {
-  text-align: center;
+  
   color: #c2c2c2;
 }

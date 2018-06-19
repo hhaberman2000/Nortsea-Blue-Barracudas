@@ -1,7 +1,4 @@
-/* .box-it {
-  border: 2px solid black;
-  margin-left: : -15px;
-} */
+
 
 .mod1 {
   padding:0;
@@ -46,28 +43,28 @@
 
 .arrival {
     color: #7c7c7c;
-    font-size: 10px;
+    font-size: 12px;
     padding-top: 9px;
     margin-bottom: 0px;
-    margin-left: 12px;
+    margin-left: 1px;
     margin-top: 11px;
 }
 
 .going {
   color: #7c7c7c;
-  font-size: 10px;
+  font-size: 12px;
   padding-top: 9px;
   margin-bottom: 0px;
-  margin-left: 12px;
+  margin-left: 0px;
   margin-top: 11px;
 }
 
 .arrival-input {
-  height: 33px;
-  width: 65px;
-  padding-left: 10px;
+  height: 32px;
+  width: 100px;
+  padding-left: 5px;
   margin-top: 3px;
-  margin-left:13px;
+  margin-left: -1px;
   margin-bottom:21px;
   font-size: 10px;
   border: 1px solid #c8c8c8;
@@ -75,15 +72,19 @@
 }
 
 .going-input {
-    height: 33px;
-    width: 65px;
-    padding-left: 10px;
+    height: 32px;
+    width: 100px;
+    padding-left: 4px;
     margin-top: 3px;
-    margin-left: 14px;
+    margin-left: -1px;
     margin-bottom: 19px;
     font-size: 10px;
     border: 1px solid #c8c8c8;
     border-right-style: none;
+}
+
+.fix-col-padding {
+  padding-right: 5px;
 }
 
 .btn-border {
@@ -124,10 +125,17 @@ p.phrase2-mod1 {
   margin-left: -15px;
 }
 
-i.cal-position {
+i.cal-position1 {
   color: #c8c8c8;
   border: 1px solid #c8c8c8;
-  padding: 7px 2px 8px 0px;
+  padding: 6px 2px 8px 0px;
+  border-left-style: none;
+}
+
+i.cal-position2 {
+  color: #c8c8c8;
+  border: 1px solid #c8c8c8;
+  padding: 6px 2px 8px 0px;
   border-left-style: none;
 }
 

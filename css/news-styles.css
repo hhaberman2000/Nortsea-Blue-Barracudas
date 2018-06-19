@@ -91,7 +91,6 @@ p, h3, h2, body {
 font-size: 12px;
 }
 
-
 .thumbnail-heading {
   font-size: 15px;
   color:#313131;
@@ -103,7 +102,6 @@ font-size: 12px;
   margin: 0em 0em .5em 0em;
   padding: 2.5em 0em 0em 0em;
   font-size: 20px;
-
 }
 
 .press-play {
@@ -112,29 +110,17 @@ font-size: 12px;
   color: gray;
 }
 
-#expand {
-  padding: 0%;
-  border: 0%;
-  /* margin: -1%; */
-
-}
 .thumbnail-expand {
     display: block;
-    /* padding: 4px; */
-    /* margin-bottom: 20px; */
     line-height: 1.42857143;
     background-color: #ccc;
-    /* border: 1px solid #ddd; */
     border-radius: 0px;
     -webkit-transition: border .2s ease-in-out;
     -o-transition: border .2s ease-in-out;
     transition: border .2s ease-in-out;
-    /* width: 191px; */
     height: 150px;
     margin: -1%;
   }
-
-    /* margin-left: -1%; */
 
 .thumbnail-expand-black {
         display: block;
@@ -146,7 +132,6 @@ font-size: 12px;
         transition: border .2s ease-in-out;
         height: 300px;
         margin: -1%;
-        /* margin-top: -1.5em; */
 }
 
 .black-box {
@@ -166,7 +151,7 @@ font-size: 12px;
 .thumbnail-background {
   background-color: #f7f7f7;
   padding: 0% 1% 1% 1%;
-  margin: 0 0 2em 0;
+  margin: 1em 0 1em 0;
 }
 
 .thumbnail-date {
@@ -186,22 +171,6 @@ font-size: 12px;
   font-size: 11px;
   font-family: nunito;
   margin-left: 20%;
-}
-
-
-#btn-read-more-gold {
-  background-color: #c0a878;
-  color: white;
-  border-radius: 0px;
-  border: 0px;
-}
-
-#btn-read-more-gold-black {
-  background-color: #c0a878;
-  color: white;
-  border-radius: 0px;
-  border: 0px;
-  margin: 20%
 }
 
 .hr-thumbnail {
@@ -228,27 +197,50 @@ font-size: 12px;
   color: #c8c8c8;
   text-align: center;
 }
-
-/* styles for the panel */
-#container-thumbnails {
-  margin: 0% 19.5% 0% 19.5%
+#expand {
+  padding: 0%;
+  border: 0%;
 }
 
+#btn-read-more-gold {
+  background-color: #c0a878;
+  color: white;
+  border-radius: 0px;
+  border: 0px;
+}
+
+#btn-read-more-gold-black {
+  background-color: #c0a878;
+  color: white;
+  border-radius: 0px;
+  border: 0px;
+  margin: 20%
+}
+
+/* styles for the panel-------------------------------------------------- */
+
+.btn-view-all {
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 0px;
+  margin: 0px 0px 20px 0px;
+  color: gray;
+}
+
+#gold-news {
+  color: #c0a878;
+}
+
+#container-thumbnails {
+  padding: 0% 19.5% 0% 19.5%;
+  background-image: url(img/background-texture.png);
+}
 
 #recent-tab {
   background-color: #313131;
   color: white;
-  border-top: #c0a878;
+  /* border-top: #c0a878; */
 }
-
-.recent-tab {
-  color:white;
-}
-
-.gold-news {
-  color: #c0a878;
-}
-
 #gold-tab{
   color: #c0a878;
 }
