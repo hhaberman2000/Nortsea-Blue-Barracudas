@@ -5,7 +5,6 @@ body {
   height:100%;
   width:100%;
   background-size: cover;
-
 }
 
 .blue-products {
@@ -22,9 +21,6 @@ body {
   font-weight: 1000;
 }
 
-#read-more-news-links {
-  font-size: 11px;
-}
 .hr-no-margin {
   margin: 3px;
 }
@@ -88,4 +84,8 @@ body {
 .media-heading {
   font-size: 15px;
   color: #313131;
+}
+
+#read-more-news-links {
+  font-size: 11px;
 }
