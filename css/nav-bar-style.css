@@ -69,6 +69,9 @@
   color: gray;
 }
 
+.icon-link {
+  color: #808080;
+}
 .social-icons {
   box-sizing: content-box;
   width: 100px;
