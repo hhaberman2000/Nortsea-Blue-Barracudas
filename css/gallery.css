@@ -17,11 +17,25 @@ body {
 
 .image-box {
   background-color: lightgray;
-  padding: 60px 0px 0px 0px;
+  padding: 60px 0px 60px 0px;
 }
 
 .gallery-img {
   margin-left: 35%;
+}
+.bottom-boxes {
+  margin: 0% 15% 0% 15%;
+}
+/* .image-box {
+  background-color: lightgray;
+  padding: 60% 30% 60% 36%;
+  margin: -20% -10% -10% -10%;
+} */
+.gallery-row {
+  padding: 1em;
+}
+.gallery-row-last {
+  padding: 10% 0% 10% 0%
 }
 
 #gallery-container {
