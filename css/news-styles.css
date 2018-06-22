@@ -111,25 +111,14 @@ font-size: 12px;
 }
 
 .thumbnail-expand {
-    display: block;
-    line-height: 1.42857143;
     background-color: #ccc;
-    border-radius: 0px;
-    -webkit-transition: border .2s ease-in-out;
-    -o-transition: border .2s ease-in-out;
     transition: border .2s ease-in-out;
     height: 150px;
-    margin: -1%;
-  }
+
+}
 
 .thumbnail-expand-black {
-        display: block;
-        line-height: 1.42857143;
         background-color: #313131;
-        border-radius: 0px;
-        -webkit-transition: border .2s ease-in-out;
-        -o-transition: border .2s ease-in-out;
-        transition: border .2s ease-in-out;
         height: 300px;
         margin: -1%;
 }
@@ -239,7 +228,7 @@ font-size: 12px;
 #recent-tab {
   background-color: #313131;
   color: white;
-  /* border-top: #c0a878; */
+
 }
 #gold-tab{
   color: #c0a878;
@@ -250,9 +239,7 @@ font-size: 12px;
 }
 
 #popular-tab, #recent-tab {
-  border-radius: 0;
   width: 50%;
-  text-align: center;
 }
 
 /* FOOTER CSSS "BELOW THIS LINE" ======================================================== */
